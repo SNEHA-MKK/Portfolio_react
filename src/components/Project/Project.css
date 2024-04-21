@@ -1,0 +1,29 @@
+.service-title{
+    position: relative;
+}
+.service-title img{
+    position: absolute;
+    bottom: 0;
+    /* right: 0; */
+    z-index: -1;
+}
+.proj{
+    border: 2px solid white;
+    height: 300px;
+}
+.proj:hover{
+    border: 2px solid rgb(216, 59, 236);
+    background-image: linear-gradient(45deg,rgba(179, 108, 108, 0.349),rgba(124, 75, 75, 0.342));
+    transform: scale(1.05);
+    transition: 0.4s;
+}
+.projName{
+    background-image: linear-gradient(270deg,rgb(190, 93, 54),rgb(155, 83, 23),rgb(199, 16, 199));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     
+ }
+ .link{
+    text-decoration: none;
+ }

@@ -1,0 +1,10 @@
+.about{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.abt-intro{
+    background-image: linear-gradient(270deg,orange,violet);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

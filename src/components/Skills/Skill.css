@@ -1,0 +1,22 @@
+.skill-div{
+    width: 200px;
+    height: 150px;
+    
+    border-radius: 10px;
+}
+.skill-div img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.skill-div img:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+.my-skill{
+    background-image: linear-gradient(270deg,orange,violet);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

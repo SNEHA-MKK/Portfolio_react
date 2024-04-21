@@ -1,0 +1,32 @@
+.navBar{
+    font-size: 20px;
+    margin-bottom: 80px;
+    color: white;
+}
+.navCon{
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: rgba(36, 36, 21, 0.445); */
+    color: aliceblue;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+}
+.contactMe{
+    background-image: linear-gradient(267deg,rgb(231, 109, 10),rgb(161, 29, 161));
+    border-radius: 15px;
+    /* width: 200px;
+    height: 35px; */
+    /* padding-top: 5px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact:hover{
+    transform: scale(1.05);
+}
+.a-link{
+    text-decoration: none;
+}
